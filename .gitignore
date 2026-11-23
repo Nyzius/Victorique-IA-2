@@ -1,0 +1,38 @@
+# Dados e ambiente locais
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Banco, documentos e backups do usuário (NUNCA versionar)
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/backups/
+data/documents/
+data/*.log
+
+# Configurações locais
+.env
+.env.*
+
+# Sistema / editores
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Artefatos
+*.log
+*.tmp
+dist/
+build/
+
+# Clipes do retrato e histórico do Organizador (pessoais)
+data/clips/
+data/operations.json
+data/operations.tmp
+
+# Configuração local do Claude Code
+.claude/
